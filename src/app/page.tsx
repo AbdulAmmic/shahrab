@@ -257,7 +257,7 @@ export default function PassGenerator() {
                 margin: '5px 0 0',
                 fontSize: '16px',
                 color: schoolColors.secondary
-              }}>Classmates GetTogether 2024</p>
+              }}>Classmates GetTogether 2025</p>
             </div>
             
             {/* Attendee photo */}
