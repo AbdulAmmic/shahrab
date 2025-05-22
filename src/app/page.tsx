@@ -1,6 +1,6 @@
-// pages/index.tsx
+'use client';
 import { useState, useRef } from 'react';
-import { QRCode } from 'react-qr-code';
+import  QRCode from 'react-qr-code';
 import { toPng } from 'html-to-image';
 
 export default function PassGenerator() {
@@ -198,10 +198,7 @@ export default function PassGenerator() {
                 fontWeight: '600',
                 marginTop: '10px',
                 transition: 'all 0.3s',
-                ':hover': {
-                  background: schoolColors.dark,
-                  transform: 'translateY(-2px)'
-                }
+             
               }}
               disabled={!name || !nickname}
             >
@@ -350,11 +347,7 @@ export default function PassGenerator() {
                 fontWeight: '600',
                 boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
                 transition: 'all 0.3s',
-                ':hover': {
-                  background: schoolColors.dark,
-                  transform: 'translateY(-2px)',
-                  boxShadow: '0 6px 12px rgba(0,0,0,0.15)'
-                }
+          
               }}
             >
               Download High-Quality Pass
@@ -373,11 +366,7 @@ export default function PassGenerator() {
                 fontWeight: '600',
                 boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
                 transition: 'all 0.3s',
-                ':hover': {
-                  background: '#c0392b',
-                  transform: 'translateY(-2px)',
-                  boxShadow: '0 6px 12px rgba(0,0,0,0.15)'
-                }
+                
               }}
             >
               Create Another Pass
